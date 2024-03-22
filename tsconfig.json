@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "code/dist",
+        "target": "ES2022",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+    },
+    "include": [
+        "code/src/**/*"
+    ]
+}
