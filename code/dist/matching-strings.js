@@ -12,11 +12,11 @@ function matchingStrings(stringList, queries) {
     });
     return resultsList;
 }
-function main() {
+function mainMatchingStrings() {
     let stringList = ['def', 'de', 'fgh'];
     let queries = ['de', 'lmn', 'fgh'];
     const result = matchingStrings(stringList, queries);
     console.log(result);
 }
-main();
+mainMatchingStrings();
 //# sourceMappingURL=matching-strings.js.map

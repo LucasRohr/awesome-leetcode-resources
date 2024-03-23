@@ -16,7 +16,7 @@ function matchingStrings(stringList: string[], queries: string[]): number[] {
   return resultsList
 }
 
-function main() {
+function mainMatchingStrings() {
   let stringList: string[] = ['def', 'de', 'fgh']
   let queries: string[] = ['de', 'lmn', 'fgh']
 
@@ -25,4 +25,4 @@ function main() {
   console.log(result)
 }
 
-main()
+mainMatchingStrings()
